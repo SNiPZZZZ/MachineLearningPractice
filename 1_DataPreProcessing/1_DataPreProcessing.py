@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
 
-dataset = pd.read_csv('C:\\Users\\USP\\Desktop\\ML\\Machine Learning A-Z (Codes and Datasets)\\Part 1 - Data Preprocessing\\Section 2 -------------------- Part 1 - Data Preprocessing --------------------\\Python\\Data.csv')
+dataset = pd.read_csv('1_DataPreProcessing\Data.csv')
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:,-1].values
 

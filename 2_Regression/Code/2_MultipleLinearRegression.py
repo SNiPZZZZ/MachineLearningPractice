@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 import numpy as np 
 
-dataset = pd.read_csv("C:\\Users\\USP\\Desktop\\ML\\Machine Learning A-Z (Codes and Datasets)\\Part 2 - Regression\\Section 5 - Multiple Linear Regression\\Python\\50_Startups.csv")
+dataset = pd.read_csv('2_Regression\\Datasets\\2_50_Startups.csv')
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
