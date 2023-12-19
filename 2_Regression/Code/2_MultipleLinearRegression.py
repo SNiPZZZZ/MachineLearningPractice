@@ -22,3 +22,7 @@ yPred = regressor.predict(xTest)
 np.set_printoptions(precision= 2)
 print(np.concatenate((yPred.reshape(len(yPred),1), yTest.reshape(len(yTest),1)), 1))
 
+print(regressor.predict([[1, 0, 0, 160000, 130000, 300000]]))
+
+print(regressor.coef_)
+print(regressor.intercept_)
